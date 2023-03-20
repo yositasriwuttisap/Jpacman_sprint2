@@ -144,16 +144,45 @@ As a player,
  I want to be able to suspend the game;
 So  that I can pause and do something else.
 
-Scenario S4.1: Suspend the game.
-Given the game has started;
-When  the player clicks the "Stop" button;
-Then  all moves from ghosts and the player are suspended.
+Scenario S4.1: กดเริ่มเกม.
+กำหนดให้ user อยู่ที่หน้า In-Game;
+เมื่อ   user กดปุ่ม Start,
+ดังนั้น  ตัว player และ ผี จะเริ่มเคลื่อนไหวได้.
 
-Scenario S4.2: Restart the game.
-Given the game is suspended;
-When  the player hits the "Start" button;
-Then  the game is resumed.
+Scenario S4.2: หยุดเกม.
+กำหนดให้ เกมเริ่มแล้ว;
+เมื่อ   user กดปุ่ม Stop,
+ดังนั้น  ตัว player และ ผี จะถูกหยุดไว้.
+
+Scenario S4.3: เริ่มอีกครั้ง.
+กำหนดให้ ถูกหยุดแล้ว;
+เมื่อ   user กดปุ่ม Start,
+ดังนั้น  ตัว player และ ผี จะเคลื่อนไหวได้อีกครั้ง.
 ```
+
+#### Story 5: Game Ending
+
+```
+As a player,
+I want to be able to choose to retry or go back after the game;
+So  that I can retry or go back and do something else  .
+
+Scenario S5.1: กด Retry.
+กำหนดให้ user อยู่ที่หน้า In-Game และมี pop up ขณะที่ชนะหรือแพ้แล้ว;
+เมื่อ   user กดปุ่ม Retry,
+ดังนั้น  ตัว player จะได้เริ่มเล่นอีกครั้งในด่านและธีมเดิม.
+
+Scenario S5.2: กด Back.
+กำหนดให้ user อยู่ที่หน้า In-Game และมี pop up ขณะที่ชนะหรือแพ้แล้ว;
+เมื่อ   user กดปุ่ม Back,
+ดังนั้น  ตัว player จะย้อนกลับไปที่หน้า Main Menu.
+
+
+```
+
+
+
+
 
 ## 3. User Interface
 
