@@ -15,7 +15,7 @@ public class PopUpLose extends JFrame {
         super("My Game");
 
 
-        JLabel panel = new JLabel(new ImageIcon("src/main/resources/img/popup/popup_gameover.png"));
+        JLabel panel = new JLabel(new ImageIcon("src/main/resources/img/popup/popup_gameover_300.png"));
         panel.setLayout(new GridBagLayout());
         GridBagConstraints c = new GridBagConstraints();
 
