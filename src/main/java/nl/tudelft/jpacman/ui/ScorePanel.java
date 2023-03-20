@@ -46,7 +46,7 @@ public class ScorePanel extends JPanel {
      * The default way in which the score is shown.
      */
     public static final ScoreFormatter DEFAULT_SCORE_FORMATTER =
-        (Player player) -> String.format("%40s: %3d", "SCORE", player.getScore());
+        (Player player) -> String.format("%35s: %3d", "SCORE", player.getScore());
 
     /**
      * The way to format the score information.

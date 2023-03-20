@@ -39,7 +39,7 @@ public class IndexPacman extends JFrame implements ActionListener {
         currentMap = "Map1";
 
         // Set up JFrame
-        setTitle("Game Themes");
+        setTitle("Main Menu");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new GridBagLayout());
         GridBagConstraints c = new GridBagConstraints();
@@ -165,7 +165,7 @@ public class IndexPacman extends JFrame implements ActionListener {
                     break;
             }
             // Reset to Map1 for the new theme
-            currentMap = "Map1";
+            //currentMap = "Map1";
             // mapLabel.setIcon(getCurrentMap());
             backgroundPanel.setBackgroundImage(getCurrentMapBg());
             System.out.println(getCurrentMapBg());

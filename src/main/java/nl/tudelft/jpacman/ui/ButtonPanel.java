@@ -36,7 +36,7 @@ class ButtonPanel extends JPanel {
             });
             System.out.println(button.getText());
             if (button.getText().equals("Start"))
-                button.setIcon(new ImageIcon("src/main/resources/img/button/play_36.png"));
+                button.setIcon(new ImageIcon("src/main/resources/img/button/start_36.png"));
             else if (button.getText().equals("Stop")) {
                 button.setIcon(new ImageIcon("src/main/resources/img/button/stop_36.png"));
             } else {

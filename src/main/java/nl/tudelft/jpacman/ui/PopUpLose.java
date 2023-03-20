@@ -97,8 +97,8 @@ public class PopUpLose extends JFrame {
     }
 
     public static void main(String[] args) {
-        //PopUpLose frame = new PopUpLose(100);
-        //frame.setSize(600,534);
+//        PopUpLose frame = new PopUpLose(100, "A", "/map1.txt");
+//        frame.setSize(600,534);
 
     }
 }
