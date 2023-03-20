@@ -46,10 +46,20 @@ As a player
  I want to start the game
 so that I can actually play
  
-Scenario S1.1: Start.
-Given the user has launched the JPacman GUI;
-When  the user presses the "Start" button;
-Then  the game should start.
+Scenario S1.1: เลือกด่าน.
+กำหนดให้ user อยู่หน้า Main Menu;
+เมื่อ   user กดปุ่ม Change Map,
+ดังนั้น  แมพที่ผู้เล่นเลือก จะเปลี่ยน พร้อมกับแสดงในพื้นหลัง.
+
+Scenario S1.2: เลือกธีม.
+กำหนดให้ user อยู่หน้า Main Menu;
+เมื่อ   user กดปุ่ม Change Theme,
+ดังนั้น  ธีมที่ผู้เล่นเลือก จะเปลี่ยน พร้อมกับแสดงผล.
+
+Scenario S1.4: การกด Play.
+กำหนดให้ user อยู่หน้า Main Menu;
+เมื่อ user กดปุ่ม "Play";
+ดังนั้น เกมจะเปลี่ยนไปที่หน้า In-Game พร้อมกับด่านที่เลือกแล้ว.
 ```
 
 
